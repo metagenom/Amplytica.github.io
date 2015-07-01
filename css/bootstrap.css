@@ -3585,7 +3585,7 @@ tbody.collapse.in {
   padding: 5px 0;
   margin: 2px 0 0;
   list-style: none;
-  font-size: 14px;
+  font-size: 18px;
   text-align: left;
   background-color: #222222;
   border: 1px solid #444444;
@@ -4220,6 +4220,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   min-height: 50px;
   margin-bottom: 20px;
   border: 1px solid transparent;
+  font-size: 18px;
 }
 @media (min-width: 768px) {
   .navbar {
@@ -4325,8 +4326,11 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-brand {
   float: left;
+  font-family: "Helvetica Neue";
+  font-style: oblique;
+  font-weight: bold;
   padding: 15px 15px;
-  font-size: 18px;
+  font-size: 22px;
   line-height: 20px;
   height: 50px;
 }
@@ -5006,6 +5010,10 @@ a.badge:focus {
 }
 .nav-pills > li > a > .badge {
   margin-left: 3px;
+}
+.nav-pills > li > a > .fa {
+  margin-left: 3px;
+  font-size: 24px;
 }
 .jumbotron {
   padding-top: 30px;
