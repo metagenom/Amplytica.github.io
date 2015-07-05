@@ -1101,12 +1101,12 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #2a9fd6;
+  color: #ffffff;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #2a9fd6;
+  color: #ffffff;
   text-decoration: underline;
 }
 a:focus {
@@ -5043,6 +5043,11 @@ a.badge:focus {
 .jumbotron .container {
   max-width: 100%;
 }
+
+.jumbotron .thumbnail .caption p{
+  font-size: 18px;
+}
+
 @media screen and (min-width: 768px) {
   .jumbotron {
     padding-top: 48px;
