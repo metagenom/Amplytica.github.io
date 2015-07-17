@@ -16,7 +16,7 @@ body {
 
 hr {
     max-width: 50px;
-    border-color: #40E3F0;
+    border-color: #1B371B;
     border-width: 3px;
 }
 
@@ -25,7 +25,7 @@ hr.light {
 }
 
 a {
-    color: #40E3F0;
+    color: #1B371B;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -52,12 +52,12 @@ p {
 }
 
 .bg-primary {
-    background-color: #40E3F0;
+    background-color: #1B371B;
 }
 
 .bg-dark {
     color: #fff;
-    background-color: #222;
+    background-color: #1B371B;
 }
 
 .text-faded {
@@ -89,12 +89,12 @@ aside {
     text-transform: uppercase;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-weight: 700;
-    color: #40E3F0;
+    color: #1B371B;
 }
 
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
-    color: #13dceb;
+    color: #203620;
 }
 
 .navbar-default .nav > li>a,
@@ -107,12 +107,12 @@ aside {
 
 .navbar-default .nav > li>a:hover,
 .navbar-default .nav>li>a:focus:hover {
-    color: #40E3F0;
+    color: #1B371B;
 }
 
 .navbar-default .nav > li.active>a,
 .navbar-default .nav>li.active>a:focus {
-    color: #40E3F0!important;
+    color: #1B371B!important;
     background-color: transparent;
 }
 
@@ -153,12 +153,12 @@ aside {
 
     .navbar-default.affix .navbar-header .navbar-brand {
         font-size: 14px;
-        color: #40E3F0;
+        color: #1B371B;
     }
 
     .navbar-default.affix .navbar-header .navbar-brand:hover,
     .navbar-default.affix .navbar-header .navbar-brand:focus {
-        color: #13dceb;
+        color: #203620;
     }
 
     .navbar-default.affix .nav > li>a,
@@ -168,7 +168,7 @@ aside {
 
     .navbar-default.affix .nav > li>a:hover,
     .navbar-default.affix .nav>li>a:focus:hover {
-        color: #40E3F0;
+        color: #1B371B;
     }
 }
 
@@ -178,8 +178,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(../img/header.jpg);
-    background-position: center;
+    background: url(../img/header.jpg) center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -274,7 +273,7 @@ header .header-content .header-content-inner p {
     text-align: center;
     color: #fff;
     opacity: 0;
-    background: rgba(65, 228, 240, 0.9);
+    background: rgba(27, 55, 27, 0.8);
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -323,7 +322,7 @@ header .header-content .header-content-inner p {
 }
 
 .text-primary {
-    color: #40E3F0;
+    color: #1B371B;
 }
 
 .no-gutter > [class*=col-] {
@@ -382,12 +381,12 @@ fieldset[disabled] .btn-default.active {
 .btn-default .badge {
     color: #fff;
     background-color: #222;
-}#40E3F0
+}
 
 .btn-primary {
-    border-color: #40E3F0;
+    border-color: #1B371B;
     color: #fff;
-    background-color: #40E3F0;
+    background-color: #1B371B;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -399,9 +398,9 @@ fieldset[disabled] .btn-default.active {
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
-    border-color: #21ddeb;
+    border-color: #1d361d;
     color: #fff;
-    background-color: #28e0ed;
+    background-color: #1f361f;
 }
 
 .btn-primary:active,
@@ -428,12 +427,12 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: #40E3F0;
-    background-color: #40E3F0;
+    border-color: #1B371B;
+    background-color: #1B371B;
 }
 
 .btn-primary .badge {
-    color: #40E3F0;
+    color: #1B371B;
     background-color: #fff;
 }
 
@@ -458,7 +457,7 @@ fieldset[disabled] .btn-primary.active {
 ::selection {
     text-shadow: none;
     color: #fff;
-    background: #222;
+    background: #1b371b;
 }
 
 img::selection {
