@@ -92,6 +92,12 @@ aside {
     color: #1B371B;
 }
 
+.navbar-company{
+    font-family: 'Helvetica Neue',Arial,sans-serif;
+    font-size: 12px;
+    font-style: italic;
+}
+
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
     color: #203620;
@@ -154,6 +160,10 @@ aside {
     .navbar-default.affix .navbar-header .navbar-brand {
         font-size: 14px;
         color: #1B371B;
+    }
+
+    .navbar-default.affix .navbar-header .navbar-brand.navbar-company{
+        font-size: 10px;
     }
 
     .navbar-default.affix .navbar-header .navbar-brand:hover,
