@@ -278,6 +278,19 @@ header .header-content .header-content-inner p {
     max-width: 650px;
 }
 
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
 .portfolio-box .portfolio-box-caption {
     display: block;
     position: absolute;
